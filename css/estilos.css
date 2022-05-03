@@ -33,7 +33,7 @@ body{
 
 
 .tarjeta{
-    flex-wrap: wrap;
+
     border: 1px solid rgb(7, 93, 240, 0.898) ;
     
     color : rgb(0, 0, 0) ;
@@ -63,14 +63,7 @@ body{
     margin-bottom: 30px;
 
 }
-tarjeta .elemento textarea{
-    width: 100%;
-    padding: 10px 0;
-    border: none;
-    border-bottom: 1px solid;
-    margin-bottom: 30px;
 
-}
 
 .tarjeta .elemento input[type="submit"]{
     background-color: rgb(40, 108, 226);
@@ -105,5 +98,3 @@ tarjeta .elemento textarea{
    text-align: center;
    
 }
-
-        
