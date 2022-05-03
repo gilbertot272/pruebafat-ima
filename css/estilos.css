@@ -109,6 +109,11 @@ body{
 	
 	}
     @media(max-width: 700px){
+        .tarjeta{
+        margin: 100px 100px;
+        height: 100%;
+        }
+
         .tarjeta .elemento {
             height: 100%;
         }
