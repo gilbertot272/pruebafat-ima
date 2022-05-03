@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
 .html{
     height: 100%;
 }
@@ -8,6 +14,7 @@ body{
     font-family: 'Montserrat', sans-serif;
    
 }
+*/
 
 .titulo{
     text-align: center;
@@ -26,6 +33,7 @@ body{
 
 
 .tarjeta{
+    flex-wrap: wrap;
     border: 1px solid rgb(7, 93, 240, 0.898) ;
     
     color : rgb(0, 0, 0) ;
@@ -48,6 +56,14 @@ body{
 }
 
 .tarjeta .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+
+}
+tarjeta .elemento textarea{
     width: 100%;
     padding: 10px 0;
     border: none;
@@ -88,42 +104,6 @@ body{
    line-height: 100px;
    text-align: center;
    
-	@media(max-width: 850px){
-	.tarjeta{
-        margin: 100px 100px;
-        height: 100%;
+}
 
-    }
-    .tarjeta .elemento {
-	    height: 100%;
         
-	}
-    .tarjeta .elemento label{
-	    height: 100%;
-	}
-    .tarjeta .elemento input {
-	    height: 100%;
-	}
-
-
-	
-	}
-    @media(max-width: 700px){
-        .tarjeta{
-        margin: 100px 100px;
-        height: 100%;
-        }
-
-        .tarjeta .elemento {
-            height: 100%;
-        }
-        .tarjeta .elemento label{
-            height: 100%;
-        }
-        .tarjeta .elemento input {
-            height: 100%;
-        }
-    
-    
-        
-        }
