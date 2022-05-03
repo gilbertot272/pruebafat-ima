@@ -92,8 +92,13 @@ body{
 	.tarjeta .elemento {
 	    width: calc(100%/4 - 20px);
 	}
+    .tarjeta .elemento label{
+	    width: calc(100%/4 - 20px);
+	}
+    .tarjeta .elemento input {
+	    width: calc(100%/4 - 20px);
+	}
 
 
 	
 	}
-
