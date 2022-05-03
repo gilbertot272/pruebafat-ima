@@ -89,3 +89,18 @@ body{
    text-align: center;
    
 }
+@media screen and (max-width: 900px){
+    .tarjeta{
+        grid-template-columns: 1fr;
+    }
+    .img{
+        display: none;
+    }
+    .Morado{
+        display: none;
+    }
+    .contenido-login{
+        justify-content: center;
+    }
+
+}
