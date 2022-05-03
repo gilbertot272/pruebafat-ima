@@ -88,12 +88,37 @@ body{
    line-height: 100px;
    text-align: center;
    
-	.tarjeta .elemento {
-	    width: 100%;
+	@media(max-width: 850px){
+	.tarjeta{
+        margin: 100px 100px;
+        height: 100%;
+
+    }
+    .tarjeta .elemento {
+	    height: 100%;
+        
 	}
     .tarjeta .elemento label{
-	    width: 100%;
+	    height: 100%;
 	}
     .tarjeta .elemento input {
-	    width: 100%;
+	    height: 100%;
 	}
+
+
+	
+	}
+    @media(max-width: 700px){
+        .tarjeta .elemento {
+            height: 100%;
+        }
+        .tarjeta .elemento label{
+            height: 100%;
+        }
+        .tarjeta .elemento input {
+            height: 100%;
+        }
+    
+    
+        
+        }
