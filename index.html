@@ -9,24 +9,25 @@
   </head>
   <body>
     
-    <h2 class="titulo">Reporte de falla del servicio de internet.</h2>
+    
     <!---<div class="img1"><img src="img/1.jpg" /></div>--->
    
- 
+    <h2 class="titulo">Reporte de falla del servicio de internet.</h2>
     <div class="tarjeta">
-     
+   
       <h2>¡ Atencion !</h2>
-      <h2 id="tlt">Reporte por falla de servicio en ISP</h2>
-      
+    
+      <h2 id="tlt">REPORTE POR FALLA DE SERVICIO ISP</h2>
+  
       <div class="elemento">
       
       <label id="nombre">Nombre: </label><input type="text" id="nom" value=""><br>
-      
+   
       </div>
 
       <div class="elemento">
-      <label id="edad">Edad: </label><input type="number" id="eda" value=""><br>
-     
+     <label id="edad">Edad: </label><input type="number" id="eda" value=""><br>
+   
    
     </div>
 
@@ -36,17 +37,27 @@
     </div>
 
     <div class="elemento">
-
+  
       <label id="des">Descripcion de la falla: </label><br><input  id="desc" name="name" rows="8" cols="20"></input>
+     
       <br>
     </div>
+
     <div class="elemento">
-      <img id="row" src="img/1.jpg" alt="">
+      
+      
+      <br>
     </div>
+    
+
+     
+      <img class="img1" src="img/1.jpg" alt="">
+    
+   
 
     <div class="elemento">
       <a href="javascript:pdfexport();"> 
-      <input type="submit" value="Enviar Reporte" >
+      <input type="submit" value="Enviar " >
     </a>
   </div>
 
@@ -60,11 +71,10 @@
 
       <!---</form>-->
     </div>
-    
-  
+   
 
   <script type="text/javascript" src="scri.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.js"></script>
   </body>
 </html>

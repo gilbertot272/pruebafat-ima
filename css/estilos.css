@@ -1,33 +1,37 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Montserrat', sans-serif;
-}
-/*
-.html{
-    height: 100%;
-}
-
-body{
-    margin: 0%;
-    padding: 0%;
+  
     font-family: 'Montserrat', sans-serif;
    
 }
-*/
+
+
+
 
 .titulo{
+    margin: auto;
+    width: 450px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
     text-align: center;
-    
-    margin: 15px;
-    font-size: 20px;
 }
 
 .img1{
-    text-align: center;
+
    /* margin: 15px 100px;
     padding: 15px;*/
-    width: 100%;
+  
+   width: 50%;
+   margin-left: 7.7%;
+   padding: 10px 0;
+    
+    
+   
+  
+   
 
 }
 
@@ -37,50 +41,69 @@ body{
     border: 1px solid rgb(7, 93, 240, 0.898) ;
     
     color : rgb(0, 0, 0) ;
-    text-align:justify ;
-    margin: 15px 100px;
+    text-align:center ;
+   /* margin: 15px 100px;
     padding: 15px;
     border-radius: 10px;
+    height: 100%;*/
+    margin: auto;
+    width: 450px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+
     
 
 }
 .tarjeta h2{
     margin: 0 0 30px;
-    padding: 0;
+    padding: 10;
     font-size: 15px;
+    text-decoration:none;
     text-align: center;
+    
 }
 .tarjeta .elemento label{
     color: rgb(0, 0, 0);
     font-size: 15px;
+    text-align: center;
 }
 
 .tarjeta .elemento input{
     width: 100%;
     padding: 10px 0;
-    border: none;
+    border: turquoise;
     border-bottom: 1px solid;
     margin-bottom: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    
 
 }
 
 
+
 .tarjeta .elemento input[type="submit"]{
     background-color: rgb(40, 108, 226);
-   color: aliceblue;
+    color: rgb(251, 251, 251);
     letter-spacing: 3px;
-    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
     margin: none;
     cursor: pointer;
     margin-top: 30px;
-    border-radius: 10px;
-    padding: 10px 17px;
+    width: 50%;
+    margin-left: 35px;
+    padding: 10px 0;
+    height: 100%;
     
     
 }
 .tarjeta .elemento img{
    
-    padding: 10px 170px;
+    padding: 15px 150px;
     
     
 }
@@ -97,4 +120,10 @@ body{
    line-height: 100px;
    text-align: center;
    
+}
+@media (max-width:480) {
+    .tarjeta{
+        width: 100%;
+    }
+    
 }
