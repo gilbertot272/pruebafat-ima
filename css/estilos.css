@@ -53,6 +53,7 @@
     box-sizing: border-box;
     margin-top: 20px;
     text-align: center;
+    border-radius: 10px;
 
     
 
@@ -101,12 +102,7 @@
     
     
 }
-.tarjeta .elemento img{
-   
-    padding: 15px 150px;
-    
-    
-}
+
 
 
 .ta{
@@ -121,9 +117,10 @@
    text-align: center;
    
 }
-@media (max-width:480) {
+@media (max-width:500) {
     .tarjeta{
-        width: 100%;
+        width: 70%;
+        font-size: 55px;
     }
     
 }
