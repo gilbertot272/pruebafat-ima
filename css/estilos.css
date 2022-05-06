@@ -3,7 +3,8 @@
     margin: 0px;
   
     font-family: 'Montserrat', sans-serif;
-   
+ 
+   ;
 }
 
 
@@ -83,7 +84,13 @@
     
 
 }
-
+.tarjeta .elementos input {
+    width: 100%;
+    height: 150px;
+}
+.tarjeta .elemento .textarea{
+    width: 100%;
+}
 
 
 .tarjeta .elemento input[type="submit"]{
@@ -117,7 +124,7 @@
    text-align: center;
    
 }
-@media (max-width:450) {
+@media (max-width:300) {
     .tarjeta{
         width: 80%;
        
