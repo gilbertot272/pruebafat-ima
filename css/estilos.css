@@ -122,7 +122,7 @@
    text-align: center;
    
 }
-@media (max-width:300) {
+@media (max-width:320) {
     .tarjeton{
         width: 80%;
        
