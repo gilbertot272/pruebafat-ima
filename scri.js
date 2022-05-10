@@ -35,8 +35,9 @@ var data = [
 [edadv.toUpperCase() + ''   + ieda.toUpperCase()],
 [desv.toUpperCase() + '' + "\n" + "\n"   + ides.toUpperCase()] ];
 //var columns = ["Nombre", "Edad", "Falla"];
-doc.autoTable(columns,data,
-{ margin:{ top: 25 }}
+doc.autoTable(columns,data,{
+theme:'grid',   
+margin:{ top: 25 }}
 );
 
 doc.save('1.pdf');
