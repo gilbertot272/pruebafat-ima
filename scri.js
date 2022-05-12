@@ -72,7 +72,7 @@ margin:{ top: 25 }}
 
 
 
-doc.addImage(imgdata, 15, 40, 180, 160);
+doc.addImage(imgdata, 50, 90, 90, 100);
 
 doc.save('1.pdf');
 
