@@ -107,8 +107,11 @@
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
-    border-radius: 10px;
+   
   
+}
+.tarjeta .elemento .file{
+    font-size: 17px;
 }
 
 
