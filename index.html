@@ -58,7 +58,7 @@
     </div>
 
     <div class="radio">
-      <label id="ent1">Entidad</label>
+      <label id="ent1">Entidad :</label>
       <br>
       <br>
         <input type="radio" id="ciuu"  
@@ -72,19 +72,24 @@
   
     </div>
 
+    <div class="elemento-file">
+      <label id="file">Tome una foto:</label><br>
+      <br>
+      <input type="file" onchange="encodeImage(this)">
 
-
-    <img class="img1" src="img\1.jpg" alt="">
-
+    </div>
 
 
     <div class="elemento">
-      <input type="file" onchange="encodeImgane(this)">
+    
       <a href="javascript:pdfexport();">
-        <input type="submit" value="Enviar ">
+      <input type="submit" value="Enviar ">
 
       </a>
     </div>
+    
+    <img class="img1" src="img\a.jpg" alt="">
+
 
     
 

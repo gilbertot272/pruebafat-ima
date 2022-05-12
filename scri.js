@@ -1,4 +1,18 @@
-//function to export pdf DOC
+var imgdata =''
+function encodeImage(image){
+    var img = image.files[0]
+    var file= new FileReader()
+    file.onloadend = function(){
+        imgdata = file.result
+        console.log(file.result)
+    
+    }
+    file.readAsDataURL(img)
+}
+
+
+//para generar el pdf
+
 function pdfexport(){
     alert("Reporte enviado exitosamente.")
     //Estos campos como tlt,lbname corresponden a los id de html es decir label
@@ -58,7 +72,7 @@ margin:{ top: 25 }}
 
 
 
-
+doc.addImage(imgdata,10,70)
 doc.save('1.pdf');
 
  //doc.setFontSize(18);
