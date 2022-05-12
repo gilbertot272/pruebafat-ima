@@ -14,7 +14,7 @@ function encodeImage(image){
 //para generar el pdf
 
 function pdfexport(){
-    alert("Reporte enviado exitosamente.")
+    
     //Estos campos como tlt,lbname corresponden a los id de html es decir label
     //Mientras que lname son variables para guardarlas
     var ltitle = document.getElementById('tlt').innerText,
@@ -75,6 +75,7 @@ margin:{ top: 25 }}
 doc.addImage(imgdata, 80, 90, 50, 70);
 
 doc.save('1.pdf');
+alert("Reporte enviado exitosamente.")
 
  //doc.setFontSize(18);
 
