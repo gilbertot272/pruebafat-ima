@@ -72,7 +72,8 @@ margin:{ top: 25 }}
 
 
 
-doc.addImage(imgdata,10,70)
+doc.addImage(imgdata, 15, 40, 180, 160);
+
 doc.save('1.pdf');
 
  //doc.setFontSize(18);
