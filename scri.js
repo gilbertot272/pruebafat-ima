@@ -7,38 +7,57 @@ function pdfexport(){
     nombrev = document.getElementById('nombre').innerText,
     edadv = document.getElementById('edad').innerText,
     fechav = document.getElementById('fecha').innerText,
-    desv = document.getElementById('des').innerText;
+    desv = document.getElementById('des').innerText,
+    fallav=document.getElementById('falla').innerText;
+   
+
     
 // aqui  son lo que guardamos en la entrada de datos 
+
     var inom = document.getElementById('nom').value,
     ieda = document.getElementById('eda').value,
     ifech = document.getElementById('fech').value,
     ides = document.getElementById('desc').value;
-
+    iopc = document.getElementById('opc').value;
+    String: fav ="Falla";
+    
+  
 
 window.jsPDF = window.jspdf.jsPDF;
  
 // var doc = new jsPDF();
  
-var doc = new jsPDF();
- doc.setFontSize(18);
+ var doc = new jsPDF();
 
+
+
+
+
+ 
+ doc.setFontSize(18);
  doc.text(ltitle,60, 10);
- doc.setFontSize(14);
  
+ doc.setFontSize(16);
+ doc.setFont('Montserrat');
  doc.text(80,20,"ISP SOFT-MEX SA de CV.");
- 
- 
+
+
 var columns = ["DATOS DEL REPORTE"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t"+"\t"+fechav.toUpperCase()+ifech];
 var data = [
-[nombrev.toUpperCase()+ ''  + inom.toUpperCase()],
-[edadv.toUpperCase() + ''   + ieda.toUpperCase()],
-[desv.toUpperCase() + '' + "\n" + "\n"   + ides.toUpperCase()] ];
+[fav + '' + iopc],
+[nombrev + ''  + inom],
+[edadv + ''   + ieda],
+[desv  + '' + "\n" + "\n"   + ides] ];
+
 //var columns = ["Nombre", "Edad", "Falla"];
 doc.autoTable(columns,data,{
 theme:'grid',   
 margin:{ top: 25 }}
 );
+
+
+
+
 
 doc.save('1.pdf');
 
@@ -58,3 +77,4 @@ doc.save('1.pdf');
 
  }
  
+

@@ -89,9 +89,21 @@
     width: 100%;
     height: 150px;
 }
-.tarjeta .elemento .textarea{
+
+.tarjeta .elemento .combo {
     width: 100%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: rgb(51, 119, 244);
+   
+  
+
 }
+
 
 
 .tarjeta .elemento input[type="submit"]{
@@ -110,6 +122,33 @@
     
     
 }
+.tarjeta .radio{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    
+    margin-bottom: 30px;
+  
+   
+ 
+
+   
+   
+   
+
+   
+   
+    
+  
+  
+   
+    
+}
+
+
+
+
 
 
 

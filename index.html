@@ -1,85 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Reporte del servicio</title>
-    <link rel="stylesheet" href="css/estilos.css" />
-  </head>
-  <body>
-    
-    
-    <!---<div class="img1"><img src="img/1.jpg" /></div>--->
-   
-    <h2 class="titulo">Reporte de falla del servicio de internet.</h2>
-  
-    <div class="tarjeta">
-   
-      <h2>¡ Atencion !</h2>
-    
-      <h2 id="tlt">REPORTE POR FALLA DE SERVICIO ISP </h2>
-  
-      <div class="elemento">
-      
-      <label id="nombre">Nombre: </label><input type="text" id="nom" value=""><br>
-   
-      </div>
 
-      <div class="elemento">
-     <label id="edad">Edad: </label><input type="number" id="eda" value=""><br>
-   
-   
+<head>
+  <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+  <title>Reporte del servicio</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+
+
+  <!---<div class="img1"><img src="img/1.jpg" /></div>--->
+
+  <h2 class="titulo">Reporte de falla del servicio de internet.</h2>
+  <div class="tarjeta">
+    <h2>¡ Atencion !</h2>
+    <h2 id="tlt">REPORTE POR FALLA DE SERVICIO ISP </h2>
+    
+    <div class="elemento">
+      <label id="falla">Seleccione la falla :</label>
+      <select class="combo" id="opc">
+        <option value="  Descarga por enegia electrica"> 1. Descarga por enegia electrica</option>
+        <option value="  Mantenimiento a el equipo">     2. Mantenimiento a el equipo</option>
+        <option value="  Reparacion del equipo ">        3. Reparacion del equipo </option>
+        <option value="  Cambio total del equipo ( por garantia)">4. Cambio total del equipo ( por garantia) </option>
+    </select>
+
+
+    </div>
+
+
+    <div class="elemento">
+    <label id="nombre">Nombre: </label><input type="text" id="nom" value=""><br>
+
     </div>
 
     <div class="elemento">
-      <label id="fecha">Fecha de Reporte:</label><br>
-      <input type="date" id="fech" value=""><br>
-      
+      <label id="edad">Edad: </label><input type="number" id="eda" value=""><br>
+
+
     </div>
 
     <div class="elemento">
-  
+      <label id="fecha">Fecha de Reporte:</label><br> <input type="date" 
+      id="fech" value=""><br>
+
+    </div>
+
+    <div class="elemento">
+
       <label id="des">Descripcion de la falla: </label><br>
-      <input  id="desc" name="name" rows="8" cols="20"></input>
-     
+      <input id="desc" name="name" rows="8" cols="20"></input>
+
       <br>
     </div>
 
-    <div class="elemento">
-      
-      
+    <div class="radio">
+      <label id="ent1">Entidad</label>
       <br>
-    </div>
-    
+      <br>
+        <input type="radio" id="ciuu"  
+        value=""/>
 
-     
-      <img class="img1" src="img\1.jpg" alt="">
-    
-   
+        <label id="a">Ciudad de México</label>
+        <br>
+        <br>
+        <input type="radio" id="ent2 name="genero" value=""/>
+        <label label="edom">Estado de México</label><br/>
+  
+    </div>
+
+
+
+    <img class="img1" src="img\1.jpg" alt="">
+
+
 
     <div class="elemento">
-      <a href="javascript:pdfexport();"> 
-      <input type="submit" value="Enviar " >
-    </a>
+      <input type="file" onchange="encodeImgane(this)">
+      <a href="javascript:pdfexport();">
+        <input type="submit" value="Enviar ">
+
+      </a>
+    </div>
+
+    
+
+
   </div>
 
 
-    </div>
 
 
-       
-    
 
 
-      <!---</form>-->
-    </div>
-<!--aqui terina tarjeton-->
-
-   
-
+  <!---</form>-->
+  </div>
+  <!--aqui terina tarjeton-->
   <script type="text/javascript" src="scri.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.js"></script>
-  </body>
+</body>
+
 </html>
