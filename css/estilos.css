@@ -26,14 +26,8 @@
    width: 50%;
    margin-left: 7.7%;
    padding: 10px 0;
-    
-    
-   
-  
-   
 
 }
-
 
 .tarjeta{
 
@@ -46,19 +40,13 @@
     border-radius: 10px;
     height: 100%;*/
     margin: auto;
-    width: 450px;
+    width: 650px;
     margin-bottom: 20px;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
     text-align: center;
     border-radius: 10px;
-    
-
-    
-
-    
-
 }
 .tarjeta h2{
     margin: 0 0 30px;
@@ -70,8 +58,29 @@
 }
 .tarjeta .elemento label{
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+  
+}
+#elementone {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+  
+}
+.tarjeta .elemento .elementoca{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+
+}
+#elementoa {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+  
 }
 
 .tarjeta .elemento input{
@@ -88,6 +97,8 @@
 .tarjeta .elementos input {
     width: 100%;
     height: 150px;
+    font-size: 18px;
+  
 }
 
 .tarjeta .elemento .combo {
@@ -110,6 +121,29 @@
    
   
 }
+
+.tarjeta .form-check {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.tarjeta .form-check-inline {
+    margin-bottom: 0px;
+    padding: 10px 0;
+     width: 100%;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+
 .tarjeta .elemento .file{
     font-size: 17px;
 }
@@ -141,19 +175,6 @@
     
     margin-bottom: 30px;
   
-   
- 
-
-   
-   
-   
-
-   
-   
-    
-  
-  
-   
     
 }
 

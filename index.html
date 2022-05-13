@@ -33,7 +33,8 @@
 
 
     <div class="elemento">
-    <label id="nombre">Nombre del cliente :</label><input type="text" id="nom" value=""><br>
+    <label id="nombre">Nombre del cliente :</label>
+    <input type="text" id="nom" > <br>
 
     </div>
 
@@ -44,7 +45,8 @@
     </div>
 
     <div class="elemento">
-      <label id="fecha">Fecha de Reporte:</label><br> <input type="date" 
+      <label id="fecha">Fecha de Reporte :</label><br> 
+      <input type="date" 
       id="fech" value=""><br>
 
     </div>
@@ -56,15 +58,58 @@
 
       <br>
     </div>
+ 
+    <div>
+    <div class="elemento">
+      <label  id="elementone">Revision tecnica : </label><br>
+      <br>
+    
+      <label  id="one">Revision de energia electrica</label>
+    </div>
+
+      <div class="form-check form-check-inline">
+          <input type="radio" name="electricidad" class="form-check-input" id="" value="Si">
+          <label  class="form-check-label">Si</label>
+      </div>
+      <div class="form-check form-check-inline">
+          <input type="radio" name="electricidad" class="form-check-input" id="" value="No"
+              checked>
+          <label class="form-check-label">No</label>
+  
+
+<!----SEGUNDA SECCION RADIO BUTTON-->
+
+<div class="elemento">
+  <br>
+  <br>
+  <label  id="elementoca">Revision de caleado :</label>
+</div>
+
+
+   <div class="form-check form-check-inline">
+      <input type="radio" name="cableado" class="form-check-input" id="" value="Si">
+      <label class="form-check-label">Si</label>
+  </div>
+  <div class="form-check form-check-inline">
+      <input type="radio" name="cableado" class="form-check-input" id="" value="No"
+          checked>
+      <label class="form-check-label">No</label>
+  </div>
+</div>
+</div>
 
 
 
-    <div class="elemento-file">
+
+  <div class="elemento">
       <label id="file">Tome una foto de la Reparacion:</label><br>
       <br>
-      <input type="file" onchange="encodeImage(this)">
+      <input type="file" onchange="encodeImage(this)" required="true">
 
     </div>
+
+
+
 
 
     <div class="elemento">
