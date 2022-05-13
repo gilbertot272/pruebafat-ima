@@ -55,7 +55,7 @@ window.jsPDF = window.jspdf.jsPDF;
  
  doc.setFontSize(16);
  doc.setFont('Montserrat');
- doc.text(ifech,14,25);
+ //doc.text(ifech,14,25);
  doc.setFontSize(12);
  doc.text(dire,14,28);
 // doc.text(elementonev  + '' + ielec ,14,90);
