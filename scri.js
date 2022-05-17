@@ -5,6 +5,7 @@ function encodeImage(image){
     file.onloadend = function(){
         imgdata = file.result
         console.log(file.result)
+        
     
     }
     file.readAsDataURL(img)
@@ -101,7 +102,7 @@ margin:{ top: 40
 );
 
 
-doc.addImage(imgdata, 75, 150, 60, 30);
+doc.addImage(imgdata, 75, 150, 80, 90);
 
 
 //ancho,entrado,mediddas
@@ -109,7 +110,7 @@ doc.addImage(imgdata, 75, 150, 60, 30);
 
 
 
-doc.save('1.pdf');
+doc.save(inom+ieda+""+'1.pdf');
 alert("Reporte enviado exitosamente.")
 
  //doc.setFontSize(18);
