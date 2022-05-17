@@ -110,7 +110,7 @@ doc.addImage(imgdata, 75, 150, 80, 90);
 
 
 
-doc.save(inom+ieda+""+'1.pdf');
+doc.save(inom+ieda+"_"+'1.pdf');
 alert("Reporte enviado exitosamente.")
 
  //doc.setFontSize(18);
