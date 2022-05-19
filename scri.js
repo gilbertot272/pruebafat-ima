@@ -102,7 +102,7 @@ margin:{ top: 40
 );
 
 
-doc.addImage(imgdata, 75, 150, width, height);
+doc.addImage(imgdata, 75, 150, 148, 210);
 
 
 //ancho,entrado,mediddas
