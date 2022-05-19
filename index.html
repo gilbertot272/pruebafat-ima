@@ -20,36 +20,32 @@
     <h2 id="tlt">Payresa Technologies ISP</h2>
     
     <div class="elemento">
-      <label id="falla">Seleccione la falla :</label>
-      <select class="combo" id="opc">
+        <label id="falla">Seleccione la falla :</label>
+        <select class="combo" id="opc">
         <option value="  Descarga por enegia electrica"> 1. Descarga por enegia electrica</option>
         <option value="  Mantenimiento a el equipo">     2. Mantenimiento a el equipo</option>
         <option value="  Reparacion del equipo ">        3. Reparacion del equipo </option>
-        <option value="  Cambio total del equipo ( por garantia)">4. Cambio total del equipo ( por garantia) </option>
+        <option value="  Cambio total del equipo (por garantia)">4. Cambio total del equipo ( por garantia) </option>
     </select>
-
-
-    </div>
-
-
-    <div class="elemento">
-    <label id="nombre">Nombre del cliente :</label>
-    <input type="text" id="nom" > <br>
-
     </div>
 
     <div class="elemento">
-      <label id="edad">Edad: </label><input type="number" id="eda" value=""><br>
-
-
+    <label id="nombre">Nombre del cliente:</label>
+    <br>
+    <input type="text" id="nom"> <br>
     </div>
 
     <div class="elemento">
-      <label id="fecha">Fecha de Reporte :</label><br> 
+    <label id="edad">Edad :</label>
+    <br>
+    <input type="number" id="eda" value=""><br>
+    </div>
+
+    <div class="elemento">
+      <label id="fecha">Fecha de Reporte:</label><br> 
       <input type="date" 
       id="fech" value=""><br>
-
-    </div>
+      </div>
 
     <div class="elemento">
 
@@ -58,75 +54,108 @@
 
       <br>
     </div>
- 
-    <div>
+    <!---placeholder=" Direccion:"-->
     <div class="elemento">
-      <label  id="elementone">Revision tecnica : </label><br>
-      <br>
-    
-      <label  id="one">Revision de energia electrica</label>
-    </div>
+  <label id="local">Ingrese su Estado</label>
+  <select class="combo2" id="opc2">
+      <option value="no">Seleccione uno...</option>
+      <option value="Aguascalientes">Aguascalientes</option>
+      <option value="Baja California">Baja California</option>
+      <option value="Baja California Sur">Baja California Sur</option>
+      <option value="Campeche">Campeche</option>
+      <option value="Chiapas">Chiapas</option>
+      <option value="Chihuahua">Chihuahua</option>
+      <option value="CDMX">Ciudad de México</option>
+      <option value="Coahuila">Coahuila</option>
+      <option value="Colima">Colima</option>
+      <option value="Durango">Durango</option>
+      <option value="Estado de México">Estado de México</option>
+      <option value="Guanajuato">Guanajuato</option>
+      <option value="Guerrero">Guerrero</option>
+      <option value="Hidalgo">Hidalgo</option>
+      <option value="Jalisco">Jalisco</option>
+      <option value="Michoacán">Michoacán</option>
+      <option value="Morelos">Morelos</option>
+      <option value="Nayarit">Nayarit</option>
+      <option value="Nuevo León">Nuevo León</option>
+      <option value="Oaxaca">Oaxaca</option>
+      <option value="Puebla">Puebla</option>
+      <option value="Querétaro">Querétaro</option>
+      <option value="Quintana Roo">Quintana Roo</option>
+      <option value="San Luis Potosí">San Luis Potosí</option>
+      <option value="Sinaloa">Sinaloa</option>
+      <option value="Sonora">Sonora</option>
+      <option value="Tabasco">Tabasco</option>
+      <option value="Tamaulipas">Tamaulipas</option>
+      <option value="Tlaxcala">Tlaxcala</option>
+      <option value="Veracruz">Veracruz</option>
+      <option value="Yucatán">Yucatán</option>
+      <option value="Zacatecas">Zacatecas</option>
+  </select>
+  </div>
+<br>
+<br>
+<br>
 
-      <div class="form-check form-check-inline">
+
+  <div class="elemento">
+    <input type="number" id="cp" placeholder=" Codigo postal:" >
+
+   </div>
+
+
+    <div class="element">
+      <br>
+      <label  id="elementoca">Revision tecnica :</label><br>
+      <br>
+    <label    id="onse">Revision de energia electrica</label>
+    </div>
+          <div class="form-check form-check-inline">
           <input type="radio" name="electricidad" class="form-check-input" id="" value="Si">
           <label  class="form-check-label">Si</label>
       </div>
+
       <div class="form-check form-check-inline">
-          <input type="radio" name="electricidad" class="form-check-input" id="" value="No"
-              checked>
-          <label class="form-check-label">No</label>
-  
+            <input type="radio" name="electricidad" class="form-check-input" id="" value="No"
+            checked>
+            <label class="form-check-label">No</label>
+            </div>
+        
 
 <!----SEGUNDA SECCION RADIO BUTTON-->
-
 <div class="elemento">
   <br>
-  <br>
-  <label  id="elementoca">Revision de caleado :</label>
+  <label id="one">Revision de cableado</label>
 </div>
-
-
-   <div class="form-check form-check-inline">
+      <div class="form-check form-check-inline">
       <input type="radio" name="cableado" class="form-check-input" id="" value="Si">
       <label class="form-check-label">Si</label>
-  </div>
-  <div class="form-check form-check-inline">
+      </div>
+      <div class="form-check form-check-inline">
       <input type="radio" name="cableado" class="form-check-input" id="" value="No"
-          checked>
+      checked>
       <label class="form-check-label">No</label>
-  </div>
 </div>
+
+
+
+
+
+<div class="elemento">
+      <label id="file">Tome una foto de la Reparacion:</label><br>
+      <br>
+      <input type="file" onchange="encodeImage(this)" capture="camera">
 </div>
+
 
 
 
 
   <div class="elemento">
-      <label id="file">Tome una foto de la Reparacion:</label><br>
-      <br>
-      <input type="file" onchange="encodeImage(this)" capture="camera">
-     
-
-    </div>
-
-
-
-
-
-    <div class="elemento">
     
       <a href="javascript:pdfexport();">
-      <input type="submit" value="Enviar ">
-
-      </a>
-    </div>
-    
-    <img class="img1" src="img\a.jpg" alt="">
-
-
-    
-
-
+      <input type="submit" value="Enviar "></a>
+      <img class="img1" src="img\a.jpg" alt="">
   </div>
 
 

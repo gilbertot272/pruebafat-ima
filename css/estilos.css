@@ -20,9 +20,6 @@
 
 .img1{
 
-   /* margin: 15px 100px;
-    padding: 15px;*/
-  
    width: 50%;
    margin-left: 7.7%;
    padding: 10px 0;
@@ -48,6 +45,9 @@
     text-align: center;
     border-radius: 10px;
 }
+
+
+
 .tarjeta h2{
     margin: 0 0 30px;
     padding: 10;
@@ -57,31 +57,13 @@
     
 }
 .tarjeta .elemento label{
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    text-align: center;
-  
-}
-#elementone {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    text-align: center;
-    font-weight: 700;
-  
-}
-.tarjeta .elemento .elementoca{
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    text-align: center;
 
-}
-#elementoa {
-    color: rgb(0, 0, 0);
     font-size: 18px;
-    text-align: left;
-    font-weight: 700;
-  
+    text-align: center;
+    padding: 10px 0;
+   
 }
+
 
 .tarjeta .elemento input{
     width: 100%;
@@ -90,16 +72,33 @@
     border-bottom: 1px solid;
     margin-bottom: 30px;
     font-size: 18px;
-    text-transform: uppercase;
+   
     
 
 }
+
+
 .tarjeta .elementos input {
     width: 100%;
     height: 150px;
     font-size: 18px;
+    
+
   
 }
+#elementoca {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+#one {
+ 
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
 
 .tarjeta .elemento .combo {
     width: 100%;
@@ -107,6 +106,18 @@
     margin-bottom: 30px;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: rgb(51, 119, 244);
+}
+
+.tarjeta .elemento .combo2 {
+    width: 100%;
+    padding: 10px 0;
+   
+   font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    
     margin-top: 20px;
     border-radius: 10px;
     border-color: rgb(51, 119, 244);
@@ -143,13 +154,9 @@
   
 }
 
-
 .tarjeta .elemento .file{
     font-size: 17px;
 }
-
-
-
 
 .tarjeta .elemento input[type="submit"]{
     background-color: rgb(40, 108, 226);
@@ -172,10 +179,8 @@
     text-align: center;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    
     margin-bottom: 30px;
-  
-    
+
 }
 
 
@@ -183,12 +188,13 @@
 
 
 
+/*
 
 @media (max-width:480) {
     .tarjeton{
         width: 50%;
         background-color: aqua;
-      
+
     }
 
    
