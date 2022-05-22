@@ -1,12 +1,13 @@
+
+
 var imgdata =''
 function encodeImage(image){
     var img = image.files[0]
     var file= new FileReader()
     file.onloadend = function(){
-        imgdata = file.result
-        console.log(file.result)
-        
-    
+    imgdata = file.result
+    console.log(file.result)
+
     }
     file.readAsDataURL(img)
 }
@@ -116,8 +117,13 @@ margin:{ top: 40
 }}
 );
 
+//var imgWidth = 100;
+//var imgHeight = 100;
 
-doc.addImage(imgdata, 75, 170, 70, 92);
+var imgWidth = 75;
+var imgHeight = 90;
+
+doc.addImage(imgdata, 70, 170, 55, 60, null, null, -90);
 
 
 //ancho,entrado,mediddas
