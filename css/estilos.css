@@ -1,9 +1,11 @@
 *{
     padding: 0px;
     margin: 0px;
-   font-family: 'Montserrat', sans-serif;
+    background-color: #a7eafb6b;
+    font-family: 'Montserrat', sans-serif;
     
-   ;
+    
+   
 }
 
 
@@ -36,7 +38,7 @@
     border-radius: 10px;
     height: 100%;*/
     margin: auto;
-    width: 540px;
+    width: 360px;
     margin-bottom: 20px;
     padding: 10px 20px;
     box-sizing: border-box;
