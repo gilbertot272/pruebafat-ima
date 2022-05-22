@@ -123,7 +123,7 @@ margin:{ top: 40
 var imgWidth = 75;
 var imgHeight = 90;
 
-doc.addImage(imgdata, 80, 125, 82, 89, 0, 0, -90);
+doc.addImage(imgdata, 80, 125, 62, 69, 0, 0, -90);
 
 
 //ancho,entrado,mediddas
